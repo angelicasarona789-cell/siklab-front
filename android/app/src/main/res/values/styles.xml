@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch theme — shown while Flutter engine loads. Match app background to eliminate white flash. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/siklabBg</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/siklabBg</item>
+        <item name="android:navigationBarColor">@color/siklabBg</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <!-- Normal theme — applied after Flutter renders its first frame. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/siklabBg</item>
+        <item name="android:statusBarColor">@color/siklabBg</item>
+        <item name="android:navigationBarColor">@color/siklabBg</item>
+    </style>
+</resources>
